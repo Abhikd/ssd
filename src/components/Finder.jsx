@@ -81,6 +81,9 @@ const Finder = ({ list }) => {
                 )}
                 {val && <h1 className='text-white'> {second} </h1> }
              </div>   
+             <div>
+                { !val && <h1 className='text-white mt-[-20px]'>Your degree of separation will display here. If there is no connection nothing will change.</h1> }
+             </div>
 
              <button className='bg-[#00df9a] w-[200px] rounded-md font-medium mt-6 py-3 text-black mx-auto' onClick={handleReset}>Reset</button>
 
